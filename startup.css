@@ -1,0 +1,58 @@
+body,
+html {
+	width: 100%;
+	height: 100%;
+}
+
+body {
+	font-family: 'Montserrat', sans-serif;
+}
+
+hr {
+	max-width: 65px;
+	border-width: 3px;
+	border-color: 75142B;
+}
+
+.faded {
+	color: rgba(255, 255, 255, 0.9);
+}
+
+header.startup {
+	background-position: center;
+	background-image: url(http://peonkun.de/wp-content/uploads/2018/02/header_Microsoft_Apple-1024x640.jpg);
+    background-size: cover;
+    height: 100%;
+}
+header.startup hr {
+	margin-top: 200px;
+	margin-bottom: 30px;
+}
+
+
+header.startup h1 {
+	font-size: 2rem;
+}
+
+.btn {
+	font-weight: 700;
+	text-transform: uppercase;
+	border-radius: 300px;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.btn-xl {
+	padding: 1rem 2rem;
+}
+
+.btn-primary {
+	background-color: #ee4b08;
+	border-color: 75142B;
+}n
+.btn-primary:hover {
+	background-color: #c307ee;
+	border-color: #ee4b08;
+	border-width: 5px;
+	cursor: pointer;
+}
+
